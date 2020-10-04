@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+
+    <table>
+        <tr>
+        <p>
+            <th><label for="new-task">Ajoutez une tache dans la liste</label><input id="new-task"
+                type="text"><button>Ajouter</button>
+        </p>
+
+        <h3>Chose à faire</h3>
+        <ul id="incomplete-tasks">
+
+            <li><input type="checkbox"><label>Méditation à 9h</label><input type="text"><button
+                    class="edit">Modifier</button><button class="delete">Supprimer</button></li>
+            <li><input type="checkbox"><label>Footing à 10h</label><input type="text" value="Go Shopping"><button
+                    class="edit">Modifier</button><button class="delete">Supprimer</button></li>
+            <li><input type="checkbox"><label>Finir le projet "Drake - YouTheBest"</label><input type="text"
+                    value="Go Shopping"><button class="edit">Modifier</button><button class="delete">Supprimer</button>
+            </li>
+            <li><input type="checkbox"><label>Classer les différentes samples</label><input type="text"
+                    value="Go Shopping"><button class="edit">Modifier</button><button class="delete">Supprimer</button>
+            </li>
+            <li><input type="checkbox"><label>Rendez-vous avec ma femme</label><input type="text"
+                    value="Go Shopping"><button class="edit">Modifier</button><button class="delete">Supprimer</button>
+            </li>
+
+        </ul>
+
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+            <li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button
+                    class="edit">Edit</button><button class="delete">Delete</button></li>
+        </ul>
+    </th>
+    </tr>
+    </table>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
